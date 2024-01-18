@@ -98,7 +98,7 @@ class OBJFile {
   }
 
   _parseGroup(lineItems) {
-    if (lineItems.length != 2) { throw 'Group statements must have exactly 1 argument (eg. g group_1)'; }
+    // if (lineItems.length != 2) { throw 'Group statements must have exactly 1 argument (eg. g group_1)'; }
 
     this.currentGroup = lineItems[1];
   }
